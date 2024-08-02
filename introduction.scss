@@ -1,0 +1,28 @@
+.introduction_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.i_content_txt {
+    width: 100%;
+    max-width: 635px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: var(--bold);
+        line-height: 60px;
+    }
+
+    span {
+        color: var(--text-color-span);
+    }
+
+    p {
+       font-size: 22px;
+       font-weight: var(--bold);
+       color: var(--text-color-span); 
+       margin-bottom: 32px;
+    }
+}
