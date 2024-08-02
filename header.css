@@ -1,0 +1,35 @@
+/*Header CSS*/
+.header_section, .grow_your_business {
+  background-color: var(--gyb-bg-cl);
+}
+
+.main_nav_list li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main_nav_list a {
+  text-decoration: none;
+  line-height: 12px;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--text-color);
+}
+
+.main_nav_list {
+  display: flex;
+  column-gap: 50px;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 53px;
+  margin-bottom: 154px;
+}
+
+.header_logo_img {
+  width: 130px;
+  height: 36px;
+}
